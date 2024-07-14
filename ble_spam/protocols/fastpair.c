@@ -532,7 +532,7 @@ static const struct {
     {0xCB2FE7, "soundcore Motion X500"},
 
     // Custom debug popups
-    {0xD99CA1, "Flipper Zero"},
+    {0x26B9F1, "Demo"},
     {0x77FF67, "Free Robux"},
     {0xAA187F, "Free VBucks"},
     {0xDCE9EA, "Rickroll"},
@@ -549,7 +549,6 @@ static const struct {
     {0xB37A62, "Tesla"},
 };
 static const uint16_t models_count = COUNT_OF(models);
-
 static const char* get_name(const Payload* payload) {
     UNUSED(payload);
     return "FastPair";
